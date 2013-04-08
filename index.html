@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/jsrender.js"></script>
+        <script type="text/javascript" src="js/tweetme.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script language="javascript">
+            $(document).ready(function(){
+                $('.my-twitter').tweetme({
+                    source: "feed",
+                    user_profile: "cnn",
+                    query: "android",
+                    direction: "up",
+                    speed: 6000,
+                    pause: 4000,
+                    mousePause: "true"
+                });
+            })
+        </script>
+    </head>
+    
+    <body>
+        <div ><ul class="my-twitter"></ul></div>
+    </body>
+</html>

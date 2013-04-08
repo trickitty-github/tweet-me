@@ -1,0 +1,40 @@
+
+.my-twitter {
+    width: 210px;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 10px;
+    padding: 0;
+}
+
+.my-twitter li {
+    background: #f8f8f8;
+    margin-bottom: 15px;
+    height: 60px;
+    overflow: hidden;
+    color: #999;
+    list-style: none;
+    padding-left: 6px;
+}
+
+.my-twitter li a.image{
+    float: left;    
+    padding: 6px 6px 0 0;
+}
+
+.my-twitter li a img{
+    float: left;
+    width: 23px;
+    height: 23px;
+}
+
+.my-twitter li p {
+    padding: 10px 6px 0 0;    
+    margin: -6px 0 0 0;
+}
+
+.my-twitter li p a{    
+    color: #55aaff;
+    font-size: 1.1em;
+    font-weight: bold;    
+}
